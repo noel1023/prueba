@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Galeria de imagenes</h1>
+    <span class="linea"></span>
+    <section class="galeria">
+
+        <!-- href="#image1": es un target que apunta al
+                        elemento con ID="image1" -->
+
+        <a href="#image1"><img src="img/imag1.jpg" alt=""></a>
+        <a href="#image2"><img src="img/imag2.jpg" alt=""></a>
+        <a href="#image3"><img src="img/imag3.jpg" alt=""></a>
+        <a href="#image4"><img src="img/imag4.jpg" alt=""></a>
+        <a href="#image5"><img src="img/imag5.jpg" alt=""></a>
+        <a href="#image6"><img src="img/imag6.jpg" alt=""></a>
+        <a href="#image7"><img src="img/imag7.jpg" alt=""></a>
+        <a href="#image8"><img src="img/imag8.jpg" alt=""></a>
+        <a href="#image9"><img src="img/imag9.jpg" alt=""></a>
+    </section>
+
+    <!-- <p>EJEMPLO USO DE TARGET</p>
+    <p>Al asignarle el valor #inicio al href, esto hace que
+        se ancle el link con el div que lleva el id="inicio"
+        Es decir que cuando se manda a llamar a #inicio
+        desde el elemento "a" se esta linkeando al div
+        de id='inicio'
+    </p>
+
+    <a href="#inicio">Aprietame</a>
+    <div id="inicio"></div>
+    <a href="#">Regresa</a> -->
+
+    <article class="light-box" id="image1">
+        <a href="#image9" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/imag1.jpg" alt="">
+        <a href="#image2" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image2">
+        <a href="#image1" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/imag2.jpg" alt="">
+        <a href="#image3" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image3">
+        <a href="#image2" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/imag3.jpg" alt="">
+        <a href="#image4" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image4">
+        <a href="#image3" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/imag4.jpg" alt="">
+        <a href="#image5" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image5">
+        <a href="#image4" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/imag5.jpg" alt="">
+        <a href="#image6" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image6">
+        <a href="#image5" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/imag6.jpg" alt="">
+        <a href="#image7" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image7">
+        <a href="#image6" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/imag7.jpg" alt="">
+        <a href="#image8" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image8">
+        <a href="#image7" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/imag8.jpg" alt="">
+        <a href="#image9" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+    <article class="light-box" id="image9">
+        <a href="#image8" class="next"><i class="fas fa-arrow-left"></i></a>
+        <img src="img/imag9.jpg" alt="">
+        <a href="#image1" class="next"><i class="fas fa-arrow-right"></i></a>
+        <a href="#" class="close">X</a>
+    </article>
+
+
+    <script src="https://kit.fontawesome.com/594433ae43.js" crossorigin="anonymous"></script>
+</body>
+</html>
